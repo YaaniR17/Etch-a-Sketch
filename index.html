@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header-section">
+        <h1>Etch-a-Sketch Project</h1>
+        <p>Use the buttons below to change the grid!</p>
+    </div>
+
+    <div class="buttons">
+        <button onclick="changeSize()">Change Size</button>
+        <button onclick="setColor('black')">Black</button>
+        <button onclick="setColor('random')">Random Color</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <div id="board-container">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
